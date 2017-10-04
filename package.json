@@ -1,0 +1,35 @@
+{
+  "name": "speak-friend-auth",
+  "version": "0.0.1",
+  "description": "A simple token-based authentication middleware for your express api",
+  "main": "src/speak-friend",
+  "scripts": {
+    "test": "tape 'src/*.test.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Renddslow/speak-friend.git"
+  },
+  "keywords": [
+    "auth",
+    "api",
+    "simple",
+    "token",
+    "authentication"
+  ],
+  "author": "Matt McElwee <mubatt@wyopub.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Renddslow/speak-friend/issues"
+  },
+  "homepage": "https://github.com/Renddslow/speak-friend#readme",
+  "dependencies": {
+    "eslint": "^4.8.0",
+    "random-bytes": "^1.0.0",
+    "redis": "^2.8.0",
+    "tape": "^4.8.0"
+  },
+  "engines": {
+    "node": "6.6.0"
+  }
+}
